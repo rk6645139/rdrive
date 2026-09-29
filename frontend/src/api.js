@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://rdrive-backend.onrender.com';
 
 export const signup = (email, password) =>
   axios.post(`${API_URL}/auth/signup`, { email, password });
